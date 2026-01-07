@@ -1,0 +1,71 @@
+{
+  "tabs": [
+    {
+      "id": "1767776016522",
+      "name": "Main",
+      "blocks": [
+        {
+          "id": "1767776033695",
+          "type": "blockPlace",
+          "position": {
+            "dx": 119.00000000000006,
+            "dy": 127.00000000000004
+          },
+          "properties": {},
+          "inputSockets": [],
+          "outputSockets": [
+            "next",
+            "player",
+            "block"
+          ],
+          "parentBlockId": null,
+          "childBlocks": [
+            "1767776044873"
+          ]
+        },
+        {
+          "id": "1767776044873",
+          "type": "consoleMessage",
+          "position": {
+            "dx": 139.00000000000006,
+            "dy": 207.00000000000006
+          },
+          "properties": {
+            "message": "",
+            "translateColors": true
+          },
+          "inputSockets": [
+            "next",
+            "message"
+          ],
+          "outputSockets": [
+            "next"
+          ],
+          "parentBlockId": "1767776033695",
+          "childBlocks": []
+        }
+      ],
+      "connections": []
+    }
+  ],
+  "activeTabId": "1767776016522",
+  "pluginSettings": {
+    "name": "AyuFoliaTest",
+    "version": "1.0.0",
+    "description": "",
+    "authors": [],
+    "prefix": "",
+    "website": "",
+    "dependencies": [],
+    "softDepend": [],
+    "loadBefore": [],
+    "permissions": {},
+    "apiVersion": "1.21.1"
+  },
+  "autoSaveInterval": {
+    "index": 1,
+    "label": "After Each Change"
+  },
+  "serverPlatform": "folia",
+  "useKotlin": false
+}
